@@ -23,6 +23,7 @@ git merge --no-ff master
 // switch back to master and merge changes
 git checkout master
 git merge --no-ff feature-task1
+git push -u origin master
 
 // delete old branches
 // ONLY after they have been merged
