@@ -1,3 +1,6 @@
+# CHI GIT CHEAT SHEET
+## Feature Branch Example
+
 ```
 // if using develop, use that instead of master
 git checkout master
@@ -28,4 +31,20 @@ git push -u origin master
 // delete old branches
 // ONLY after they have been merged
 git branch -d feature-task1
+```
+
+## Other Commands
+```
+// list branch you are on
+git branch
+
+// list all branches
+git branch -a
+
+// 'soft' pull
+git fetch
+
+// show status
+git status
+
 ```
