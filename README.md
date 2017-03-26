@@ -2,8 +2,8 @@
 ## Feature Branch Example
 
 ```
-// if using develop, use that instead of master
-git checkout master
+// if using master, use that instead of develop
+git checkout develop
 git branch feature-task1
 git checkout feature-task1
 
@@ -15,18 +15,18 @@ git commit -m "Changes..."
 // when you're done with the feature
 git push -u origin feature-task1
 
-// pull any changes from master
-git pull origin master
-// merge master into your feature-task1 branch
-git merge --no-ff master
+// pull any changes from develop
+git pull origin develop
+// merge develop into your feature-task1 branch
+git merge --no-ff develop
 
 // resolve conflicts, if any
 // this may require git add & git commit
 
-// switch back to master and merge changes
-git checkout master
+// switch back to develop and merge changes
+git checkout develop
 git merge --no-ff feature-task1
-git push -u origin master
+git push -u origin develop
 
 // delete old branches
 // ONLY after they have been merged
